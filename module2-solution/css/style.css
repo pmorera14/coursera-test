@@ -12,7 +12,6 @@ h1{
 .container>div{
 	border: 1px solid black;
 	position: relative;
-	padding: 15px;
 	margin:10px;
 }
 p.title_section{
@@ -31,6 +30,7 @@ p.text_section{
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 15px;
 	text-align: justify;
+	padding: 10px;
 }
 #s1{
 	background-color: #FADBD8;
