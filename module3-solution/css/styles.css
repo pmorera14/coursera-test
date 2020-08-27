@@ -2,7 +2,7 @@ body{
 	background-color: #F2F4F4;
 }
 .container{
-	width: 100%
+	width: 100%;
 }
 #header-nav{
 	background-color: #7F8C8D;
@@ -20,6 +20,10 @@ body{
 	margin-top: 0;
 	margin-bottom: 0;
 	line-height: .6;
+	font-family: Verdana, sans-serif
+}
+.container h2{
+	font-weight: bold;
 	font-family: Verdana, sans-serif
 }
 .navbar-brand a:hover, .navbar-brand a:focus{
@@ -84,7 +88,31 @@ p{
 	margin-bottom:5px;
 	text-align: justify;
 }
-div > a{
+div.text-section > a{
 	height: 20px;
 	color: #000;
+	font-weight: bold;
+	border:0.5px solid #000;
+	width: 110px;
+}
+#top-button{
+	float: right;
+	border:1px solid #000;
+	background-color: #7F8C8D;
+	height: 30px;
+	width: 150px;
+	margin-bottom:20px; 
+	margin-right:10px;
+	font-weight: bold;
+	text-align: center;
+	color:#000;
+}
+#top-button span{
+	font-size: 1.5em;
+}
+div.text-section > a:hover{
+	background-color:#CCD1D1;
+}
+a#top-button:hover{
+	background-color:#CCD1D1;
 }
