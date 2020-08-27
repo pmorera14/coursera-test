@@ -20,11 +20,11 @@ body{
 	margin-top: 0;
 	margin-bottom: 0;
 	line-height: .6;
-	font-family: Verdana, sans-serif
+	font-family: Verdana, sans-serif;
 }
 .container h2{
 	font-weight: bold;
-	font-family: Verdana, sans-serif
+	font-family: Verdana, sans-serif;
 }
 .navbar-brand a:hover, .navbar-brand a:focus{
 	text-decoration: none;
@@ -35,7 +35,7 @@ body{
 #nav-list a{
 	color:#000;
 	text-align: center;
-	background-color: #A9CCE3 ;
+	background-color: #A9CCE3;
 }
 #nav-list a:hover{
 	background: #CCD1D1;
@@ -63,7 +63,7 @@ ul#nav-list{
 }
 #our-menu-title{
 	margin-top: 5px;
-	font-family: Verdana, sans-serif
+	font-family: Verdana, sans-serif;
 }
 div.row{
 	width: 100%;
@@ -110,11 +110,11 @@ div.text-section > a{
 #top-button span{
 	font-size: 1.5em;
 }
-div.text-section > a:hover{
+a#top-button:hover{
 	background-color:#CCD1D1;
 	box-shadow: 0 1px 5px 1px #000;
 }
-a#top-button:hover{
+div.text-section > a:hover{
 	background-color:#CCD1D1;
 	box-shadow: 0 1px 5px 1px #000;
 }
