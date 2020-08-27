@@ -1,0 +1,90 @@
+body{
+	background-color: #F2F4F4;
+}
+.container{
+	width: 100%
+}
+#header-nav{
+	background-color: #7F8C8D;
+	border: 1.5px solid #000;
+	border-radius: 0;
+	margin-bottom: 10px;
+}
+.navbar-brand{
+	padding-top: 15px;
+	margin-left: 15px;
+}
+.navbar-brand h1{
+	color:#000;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .6;
+	font-family: Verdana, sans-serif
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+#nav-list{
+	margin-top: 10px;
+}
+#nav-list a{
+	color:#000;
+	text-align: center;
+	background-color: #A9CCE3 ;
+}
+#nav-list a:hover{
+	background: #CCD1D1;
+}
+.navbar-header button.navbar-toggle{
+	border:1px solid #000;
+}
+.navbar-header .icon-bar{
+	border: 2px solid #000;
+}
+ul#nav-list{
+	margin-top:0;
+	margin-bottom: 0; 
+}
+#nav-list li{
+	border:1px solid #000;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+#nav-list{
+	border-top:1px solid #000;
+}
+#collapsable-nav{
+	border-top:0;
+}
+#our-menu-title{
+	margin-top: 5px;
+	font-family: Verdana, sans-serif
+}
+div.row{
+	width: 100%;
+	margin:0;
+}
+div.row >div{
+	padding: 0;
+}
+div.text-section{
+	background-color: #7F8C8D;
+	margin: 0 10px 10px;
+	padding:10px 15px 15px;
+	color:#000;
+}
+div.row .title{
+	margin:0 0 5px 0;
+	padding: 0;
+	font-weight: bold;
+	font-size: 1.4em;
+}
+p{
+	margin-bottom:5px;
+	text-align: justify;
+}
+div > a{
+	height: 20px;
+	color: #000;
+}
